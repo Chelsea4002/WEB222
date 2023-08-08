@@ -4,16 +4,27 @@
 
 /* To optimize space and sizes for mobile phones */
 @media only screen and (max-width: 400px){
+    body {
+        width: fit-content;
+    }
 
-}
+    .gameName {
+        width: 1150px;
+    }
 
-/* To optimize space and sizes for desktop screens */
-@media only screen and (min-width: 401px){
+    header{
+        width: 1295px;
+    }
 
+    main{
+        max-width: 1150px !important;
+        padding: 20px !important;
+    }
 }
 
 body{
     background-color: #D6E6F2;
+    margin: 0;
 }
 
 main{

@@ -1,3 +1,24 @@
+/* To optimize space and sizes for mobile phones */
+@media only screen and (max-width: 400px){
+    .navContent{
+        margin-left: 20px !important;
+    }
+
+    .mainPic{
+        margin-top: 120px !important;
+        margin-left: 130px !important;
+        width: 580px;
+    }
+
+    .pic1, .pic2{
+        width: 530px;
+    }
+
+    input[type="submit"] {
+        margin-left: 900px !important;
+    }
+}
+
 .navigation a.home{
     background-color: #d0dff4;
     color: #4b648a;
@@ -124,3 +145,4 @@ input[type="checkbox"]{
 .newsletter p{
     font-size: 27px;
 }
+

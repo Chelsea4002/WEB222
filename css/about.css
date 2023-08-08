@@ -1,3 +1,10 @@
+/* To optimize space and sizes for mobile phones */
+@media only screen and (max-width: 400px){
+    li cite{
+        max-width: 900px !important;
+    }
+}
+
 .navigation a.authorNav{
     background-color: #d0dff4;
     color: #4b648a;
