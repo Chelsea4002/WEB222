@@ -1,0 +1,112 @@
+/* Fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+/* To optimize space and sizes for mobile phones */
+@media only screen and (max-width: 400px){
+
+}
+
+/* To optimize space and sizes for desktop screens */
+@media only screen and (min-width: 401px){
+
+}
+
+body{
+    background-color: #D6E6F2;
+}
+
+main{
+    background-color: #f7fbfc;
+}
+
+html{
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+/* header */
+header, h1, h3{
+    font-family: 'Passion One', cursive;
+}
+
+.siteDesc{
+    text-shadow: 0 3px cornflowerblue;
+}
+
+.siteDesc h1{
+    font-size: 80px;
+}
+
+.siteDesc p{
+    font-size: 35px;
+}
+
+.headerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4b648a;
+    padding: 30px;
+  }
+  
+.logo {
+    max-width: 150px; 
+    margin-right: 20px;
+}
+
+header{
+    text-align: center;
+    background-color: #4b648a;
+    
+}
+
+header h1{
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    padding-top: 18px;
+}
+
+header p{
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.navigation{
+    overflow: hidden;
+    background-color: #261e1a;
+    height: 40px;
+}
+
+.navigation a{
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navigation a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+main{
+    max-width: 1500px;
+    margin: auto;
+    padding: 13px;
+}
+
+/* Footer */
+footer{
+    background-color: #4b648a;
+    font-size: 25px;
+    height: 200px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+footer div{
+    margin-bottom: 5px;
+}

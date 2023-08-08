@@ -1,0 +1,20 @@
+.navigation a.gameNav{
+    background-color: #d0dff4;
+    color: #4b648a;
+}
+
+.historySec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ceopic{
+    width: 700px;
+    height: 500px;
+}
+
+.rulesSec li{
+    font-weight: bold;
+}

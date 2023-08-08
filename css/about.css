@@ -1,0 +1,13 @@
+.navigation a.authorNav{
+    background-color: #d0dff4;
+    color: #4b648a;
+}
+
+li cite {
+    max-width: 1200px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+}

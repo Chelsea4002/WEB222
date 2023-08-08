@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Game Reviews</title>
+        <link rel="stylesheet" href="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\css\same.css">
+        <link rel="stylesheet" href="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\css\review.css">
+    </head>
+    <body>
+        <script src="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\js\data.js"></script>
+        <script src="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\js\reviewCards.js"></script>
+        <header>
+            <div class="headerDiv">
+                <img class="logo" src="C:\Users\haera\OneDrive\사진\KakaoTalk_20230806_205758375-removebg-preview.png" alt="Earth and the astronaut riding a spaceship">
+                <span class="siteDesc">
+                    <h1>BLUE MARBLE</h1>
+                    <p>Let's go on a world tour!</p>
+                </span>
+            </div>
+            <nav class="navigation">
+                <a class="home" href="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\html\index.html">Home</a>
+                <a class="gameNav" href="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\html\info.html">About game</a>
+                <a class="reviewsNav" href="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\html\review.html">Reviews</a>
+                <a class="authorNav" href="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\html\about.html">About author</a>
+            </nav>
+        </header>
+        <main>
+            <br>
+            <h1 id="reviewH">Reviews</h1>
+            <hr>
+            <section class="reviewsSec">
+                <div id="reviews"></div>
+            </section>
+            <br>
+            <br>
+            <h1 id="writeReview">Write Reviews</h1>
+            <hr>
+            <section class="subscriptionForm">
+                <p>Share your thoughts on Blue Marble:</p>
+                <br>
+                <form id="reviewForm">
+                    <div>
+                        <label for="name">Name*:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="review">Review*:</label>
+                        <textarea id="review" name="review" required></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="rating">Rating (1-5)*:</label>
+                        <input type="number" id="rating" name="rating" min="1" max="5" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="date">Date*:</label>
+                        <input type="date" id="date" name="date" placeholder="YYYY-MM-DD" required>
+                    </div>
+                    <br>
+                    <br>
+                    <input id="create" type="submit" value="Create">
+                </form>
+            </section>
+            <br>
+            <br>
+            <br>
+        </main>
+        <footer>
+            <div>Author: <a href="C:\Users\haera\Documents\cpa\Assignment\2nds semester\WEB222\Final_Assessment\html\about.html">Hyerang Cho</a></div>
+            <div>Contact: <a href="mailto:hcho71@myseneca.ca">hcho71@myseneca.ca</a></div>
+            <p>© 2023.  ALL RIGHTS RESERVED</p>
+        </footer>
+    </body>
+</html>

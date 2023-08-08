@@ -1,0 +1,61 @@
+.navigation a.reviewsNav{
+    background-color: #d0dff4;
+    color: #4b648a;
+}
+
+.card {
+    border: 1px solid #b2cef8;
+    padding: 10px;
+    margin: 10px;
+}
+
+.subscriptionForm{
+    border: 2px solid #b2cef8;
+    background-color: #e0e4f0;
+    padding: 20px;
+    margin: 10px;
+}
+
+.subscriptionForm p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#reviewForm{
+    margin-left: 40px;
+}
+
+.reviewerName, .reviewDate, .reviewRating, .reviewContent{
+    font-weight: bold;
+}
+
+input{
+    width: 260px;
+    height: 45px;
+    font-size: 25px;
+}
+
+textarea{
+    width: 255px;
+    height: 100px;
+    font-size: 25px;
+}
+
+input[type="number"]{
+    width: 200px;
+}
+
+input[type="date"]{
+    width: 280px;
+}
+
+input[type="submit"]{
+    width: 150px;
+    margin-left: 320px;
+    background-color: #6fa2ee;
+}
+
+#create:hover{
+    background-color: #4073c0;
+    color: white;
+}

@@ -1,0 +1,126 @@
+.navigation a.home{
+    background-color: #d0dff4;
+    color: #4b648a;
+}
+
+.gameName{
+    text-align: center;
+    color:#305b9c;
+    text-shadow: 0 4px white;
+    background-color: #acc1df;
+}
+
+.navContent{
+    display: flex;
+    width: 500px;
+    height: 830px;
+    border: 3px solid #d0dff4;
+    background-color: #d0dff4;
+    margin-left: 80px;
+}
+
+.navContent nav{
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+.navContent h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+.navContent li{
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+.navContent div{
+    font-weight: bold;
+}
+
+.mainPic{
+    margin-top: 80px;
+    margin-left: 300px;
+    height: fit-content;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.descList{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.list li{
+    margin-bottom: 14px;
+}
+
+.videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    margin: 40px;
+}
+
+.linksLi li{
+    margin-bottom: 14px;
+}
+
+/* Subscription Form */
+.newsletter{
+    border: 2px solid #b2cef8;
+    background-color: #e0e4f0;
+    padding: 20px;
+    margin: 10px !important;
+}
+
+.newsletter p{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+input{
+    font-size: 25px;
+}
+
+input[type="email"]{
+    width: 300px;
+    height: 35px;
+}
+
+input::placeholder{
+    font-size: 23px;
+} 
+
+input[type="submit"]{
+    margin-left: 1200px;
+    width: 150px;
+    height: 45px;
+    background-color: #6fa2ee;
+}
+
+#join:hover{
+    background-color: #4073c0;
+    color: white;
+}
+
+input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+}
+
+.newsletter{
+    margin-left: 60px;
+}
+
+.newsletter p{
+    font-size: 27px;
+}
